@@ -24,7 +24,7 @@ scoreboard:
       - '&fServer: &eLobby #1'
       - '&fOnline: &a%bungee_total%'
       - ''
-      - 'mc.velixcraft.net'
+      - '&6mc.velixcraft.net'
   skywars:
     title: '&e&lSkyWars'
     lines:
@@ -35,4 +35,4 @@ scoreboard:
       - '&fOnline: &a%bungee_total%'
       - '&fPlaying: &e<players>'
       - ''
-      - 'mc.velixcraft.net'      
+      - '&6mc.velixcraft.net'      
