@@ -1,0 +1,96 @@
+general:
+  noPermission: '&c¡No tienes permisos para hacer esto!'
+  unknownCommand: '{prefix}&fEse comando no existe.'
+  isOnlyConsole: '&c¡Este comando es solo para consola!'
+  isOnlyPlayers: '&c¡Este comando es solo para jugadores!'
+
+commands:
+  help:
+    user:
+      - '{center}        &b&l&m========|&r &e&lVelixSW &b&l&m|========'
+      - ''
+      - '&a/{cmd} points &f- &eMira tus puntos actuales.'
+      - '&a/{cmd} shop &f- &eAbre el menú de la tienda en skywars.'
+      - '&a/{cmd} play &f- &eIngresa a un juego aleatorio.'
+      - ''
+      - '{center}&b&l&m ================================== '
+    admin:
+      1:
+        - '{center}        &b&l&m========|&r &e&lVelixSW &b&l&m|========'
+        - ''
+        - '&a/{cmd} reload &f- &eRecarga algunas cosas de skywars.'
+        - '&a/{cmd} setlobby &f- &eEstablece el punto de aparición.'
+        - '&a/{cmd} points &f- &eMira tus puntos actuales.'
+        - '&a/{cmd} shop &f- &eAbre el menú de la tienda en skywars.'
+        - '&a/{cmd} play &f- &eIngresa a un juego aleatorio.'
+        - ''
+        - '{center}&b&l&m ================================== '
+
+scoreboards:
+  lobby:
+    title: '&e&lSkyWars &8(&7%server_online%&8)'
+    lines:
+      - ''
+      - ' &b● &e%player_name%'
+      - ''
+      - ' &b● &fRango: %luckperms_prefix%'
+      - ' &b● &fMonedas:&a 0.00'
+      - ''
+      - ' &b● &fVictorias: §a0'
+      - ' &b● &fMuertes:&a 0'
+      - ' &b● &fAsesinatos: &a0'
+      - ''
+      - '    &eplay.velixcraft.net'
+
+items:
+  lobby:
+    play:
+      material: paper
+      slot: 8
+      displayName: "&aJugar &7[Click Derecho]"
+      clickType: multiclick
+      action: '[cmd] sw play'
+    shop:
+      material: emerald
+      slot: 5
+      displayName: "&aTienda &7[Click Derecho]"
+      clickType: multiclick
+      action: '[open] shop'
+  admin:
+    arenaEditor:
+      arenas:
+        name: '&aLista de Arenas'
+        lore:
+          - ''
+          - ' &7Arenas configuradas: &e{games}'
+          - ''
+          - ' &7Configurables: &e{configurables}'
+
+chests:
+  normal:
+    name: 'Normal'
+    item-name: '&eNormal'
+    item-lore:
+      - ''
+      - ' &7Inserta descripción'
+      - ' &7en este espacio.'
+      - ''
+      - ' {votes} votos'
+
+game:
+  events:
+    REFILL:
+      displayName: 'Relleno'
+      msg: '&a¡Revisa los cofres que tengas cerca!'
+      title: '&a&lRelleno;&f¡Todos los cofres han sido rellenados!'
+      sound: #opened chest
+    BORDER:
+      displayName: 'Borde'
+      msg: '&c&lOh oh!...'
+      title: '&e&lBorde;&c¡Corre por tu vida!'
+      sound: #portal weird sound
+    DRAW:
+      displayName: 'Empate'
+      msg: '&eUy, eso es raro...'
+      title: '&c&lJuego terminado;&7¡Ups, parece que hubo un empate!'
+      sound: #level up
