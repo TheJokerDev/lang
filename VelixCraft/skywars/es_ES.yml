@@ -34,7 +34,7 @@ scoreboards:
       - ' &b● &e%player_name%'
       - ''
       - ' &b● &fRango: %luckperms_prefix%'
-      - ' &b● &fPuntos:&a 0'
+      - ' &b● &fPuntos:&a %vsw_coins%'
       - ''
       - ' &b● &fVictorias: &a0'
       - ' &b● &fMuertes: &a0'
