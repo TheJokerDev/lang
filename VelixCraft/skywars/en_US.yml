@@ -45,17 +45,9 @@ scoreboards:
 items:
   lobby:
     play:
-      material: paper
-      slot: 8
-      displayName: "&aPlay &7[Right-Click]"
-      clickType: multiclick
-      action: '[cmd] sw play'
+      name: '&aPlay &7[Right-Click]'
     shop:
-      material: emerald
-      slot: 5
-      displayName: "&aShop &7[Right-Click]"
-      clickType: multiclick
-      action: '[open] shop'
+      name: '&aShop &7[Right-Click]'
   admin:
     arenaEditor:
       arenas:
