@@ -43,6 +43,7 @@ scoreboards:
       - '    &eplay.velixcraft.net'
 
 items:
+  cooldown: '{prefix}&cYou need to wait {secs} seconds!'
   lobby:
     play:
       name: '&aPlay &7[Right-Click]'
