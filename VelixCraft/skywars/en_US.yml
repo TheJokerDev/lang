@@ -45,21 +45,18 @@ scoreboards:
 items:
   lobby:
     play:
-      meta:
-        name: '&aPlay &7[Right-Click]'
+      name: '&aPlay &7[Right-Click]'
     shop:
-      meta:
-        name: '&aShop &7[Right-Click]'
+      name: '&aShop &7[Right-Click]'
   admin:
     arenaEditor:
       arenas:
-        meta:
-          name: '&aArena''s List'
-          lore:
-            - ''
-            - ' &7Playable Arenas: &e{games}'
-            - ''
-            - ' &7Arenas to configure: &e{configurables}'
+        name: '&aArena''s List'
+        lore:
+          - ''
+          - ' &7Playable Arenas: &e{games}'
+          - ''
+          - ' &7Arenas to configure: &e{configurables}'
 
 chests:
   normal:
