@@ -45,26 +45,18 @@ scoreboards:
 items:
   lobby:
     play:
-      material: paper
-      slot: 8
-      displayName: "&aJugar &7[Click Derecho]"
-      clickType: multiclick
-      action: '[cmd] sw play'
+      name: '&aJugar &7[Clic derecho]'
     shop:
-      material: emerald
-      slot: 5
-      displayName: "&aTienda &7[Click Derecho]"
-      clickType: multiclick
-      action: '[open] shop'
+      name: '&aTienda &7[Clic derecho]'
   admin:
     arenaEditor:
       arenas:
-        name: '&aLista de Arenas'
+        name: '&aLista de arenas'
         lore:
           - ''
-          - ' &7Arenas configuradas: &e{games}'
+          - ' &7Arenas jugables: &e{games}'
           - ''
-          - ' &7Configurables: &e{configurables}'
+          - ' &7Arenas sin configurar: &e{configurables}'
 
 chests:
   normal:
