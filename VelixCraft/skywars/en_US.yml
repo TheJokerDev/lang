@@ -3,6 +3,7 @@ general:
   unknownCommand: '{prefix}&fThat command doesn''t exist.'
   isOnlyConsole: '&cThis command is only for console!'
   isOnlyPlayers: '&cThis command is only for players!'
+  commandError: '{prefix}&cAn error occured executing that command. Check the console\n&aType /sw help for help.'
 
 commands:
   help:

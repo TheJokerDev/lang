@@ -3,6 +3,7 @@ general:
   unknownCommand: '{prefix}&fEse comando no existe.'
   isOnlyConsole: '&c¡Este comando es solo para consola!'
   isOnlyPlayers: '&c¡Este comando es solo para jugadores!'
+  commandError: '{prefix}&cOcurrió un error al ejecutar ese comando. Revisa la consola\n&aEscribe /sw help para ayuda.'
 
 commands:
   help:
