@@ -44,6 +44,12 @@ scoreboards:
       - '    &eplay.velixcraft.net'
 
 items:
+  general:
+    close:
+      name: '&cCerrar'
+      lore:
+        - '&7Clic para cerrar'
+        - '&7este menú.'
   cooldown: '{prefix}&c¡Necesitas esperar <time> segundos!'
   lobby:
     play:
