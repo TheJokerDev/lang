@@ -43,6 +43,10 @@ scoreboards:
       - ''
       - '    &eplay.velixcraft.net'
 
+menus:
+  arenaEditor: 'Arena Editor'
+  arenaSetup: 'Arena Setup'
+
 items:
   general:
     close:
