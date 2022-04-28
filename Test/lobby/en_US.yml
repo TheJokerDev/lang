@@ -18,13 +18,13 @@ scoreboard:
   general:
     title: '&e&lVelixCraft'
     lines:
-      - ''
-      - '&f ‣ &b%player_name%'
-      - ''
-      - '&fServer: &eLobby #1'
-      - '&fOnline: &a%bungee_total%'
-      - ''
-      - '&6mc.velixcraft.net'
+      '1': ''
+      '2': '&f ‣ &b%player_name%'
+      '3': ''
+      '4': '&fServer: &eLobby #1'
+      '5': '&fOnline: &a%bungee_total%'
+      '6': ''
+      '7': '&6mc.velixcraft.net'
   skywars:
     title: '&e&lSkyWars'
     lines:
